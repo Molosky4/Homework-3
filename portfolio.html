@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mololuwa Foluso | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        /* Style for the active navigation link */
+        .nav-link.active {
+            color: #2563eb; /* A strong blue color */
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-xl font-bold text-blue-600">Mololuwa Foluso</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#knowledge" class="nav-link">Knowledge</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-600"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg></button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#home" class="block py-2 hover:text-blue-600">Home</a>
+            <a href="#about" class="block py-2 hover:text-blue-600">About</a>
+            <a href="#projects" class="block py-2 hover:text-blue-600">Projects</a>
+            <a href="#knowledge" class="block py-2 hover:text-blue-600">Knowledge</a>
+            <a href="#contact" class="block py-2 hover:text-blue-600">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="min-h-screen flex items-center bg-gray-50">
+            <div class="container mx-auto px-6 text-center">
+                <!--  -->
+                <img src="https://placehold.co/150x150/3b82f6/ffffff?text=MF" alt="Mololuwa Foluso" class="w-40 h-40 rounded-full mx-auto mb-6 border-4 border-blue-500 shadow-xl">
+                <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-3">Mololuwa Foluso</h1>
+                <p class="text-xl md:text-2xl text-blue-600 font-medium mb-8">Computer Science Student | Aspiring Software Developer</p>
+                <p class="max-w-3xl mx-auto text-lg text-gray-600 mb-8">
+                    Passionate about technology and innovation, I'm seeking an internship to apply my strong foundation in software development and problem-solving to contribute to impactful, real-world projects.
+                </p>
+                <a href="#projects" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition duration-300">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">About Me</h2>
+            <div class="grid md:grid-cols-3 gap-12 items-start">
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-4">Profile</h3>
+                    <p class="text-gray-600 mb-8 text-lg">
+                        I am a dedicated Computer Science student at Kent State University with a solid foundation in procedural and object-oriented programming, data structures, and operating systems. My goal is to secure an internship that allows me to apply my skills to real-world challenges and grow as a software developer.
+                    </p>
+                    <h3 class="text-2xl font-bold text-blue-600 mb-4">Education</h3>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-xl text-gray-900">Kent State University, Kent, OH</h4>
+                        <p class="text-blue-500 font-medium mb-1">Bachelor of Science in Computer Science</p>
+                        <p class="text-sm text-gray-500 mb-3">Expected Graduation: Dec 2027</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>GPA: 3.508</li>
+                            <li>Member of The Alpha Lambda Delta Honors Society</li>
+                            <li><span class="font-semibold">Relevant Coursework:</span> CS1, CS2, Data Structures & Abstraction, Discrete Structures, Computer Organization, Operating Systems, Computer Communications Network, Human Interface Computing, Intro to Database Design, Structure of Programming Languages.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-blue-600 mb-4">Skills</h3>
+                    <div class="space-y-6">
+                        <div>
+                            <h4 class="font-semibold text-lg mb-2">Programming Languages</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-blue-800 py-1 px-3 rounded-full text-sm font-medium">Python</span>
+                                <span class="bg-blue-100 text-blue-800 py-1 px-3 rounded-full text-sm font-medium">C++</span>
+                                <span class="bg-blue-100 text-blue-800 py-1 px-3 rounded-full text-sm font-medium">HTML</span>
+                                <span class="bg-blue-100 text-blue-800 py-1 px-3 rounded-full text-sm font-medium">JavaScript</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-lg mb-2">Professional Skills</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-200 text-gray-800 py-1 px-3 rounded-full text-sm">Communication</span>
+                                <span class="bg-gray-200 text-gray-800 py-1 px-3 rounded-full text-sm">Problem-Solving</span>
+                                <span class="bg-gray-200 text-gray-800 py-1 px-3 rounded-full text-sm">Teamwork</span>
+                                <span class="bg-gray-200 text-gray-800 py-1 px-3 rounded-full text-sm">Adaptability</span>
+                                <span class="bg-gray-200 text-gray-800 py-1 px-3 rounded-full text-sm">Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center mb-12">Projects</h2>
+                <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-200 flex flex-col">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Producer-Consumer Problem</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Implementation of the classic synchronization problem using C, shared memory, and semaphores in a Linux/Unix environment to manage concurrent processes safely.</p>
+                        <div class="mt-4">
+                            <p class="text-sm font-medium text-gray-500 mb-3">Skills: C, POSIX Threads, Semaphores, Shared Memory</p>
+                            <a href="https://github.com/Molosky4" target="_blank" class="text-blue-600 hover:underline font-semibold">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-200 flex flex-col">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Banker's Algorithm</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">A C-based project that implements the Banker's Algorithm to ensure deadlock avoidance in a simulated operating system resource allocation scenario.</p>
+                        <div class="mt-4">
+                             <p class="text-sm font-medium text-gray-500 mb-3">Skills: C, Algorithms, Operating Systems Concepts</p>
+                             <a href="https://github.com/Molosky4" target="_blank" class="text-blue-600 hover:underline font-semibold">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-200 flex flex-col col-span-1 lg:col-span-2">
+                        <h3 class="text-2xl font-bold text-blue-600 mb-2">Portfolio Website</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">A fully functional personal portfolio designed with user-centric principles from my Human Interface Computing course, featuring a clean, responsive, and appealing UI.</p>
+                        <div class="mt-4">
+                            <p class="text-sm font-medium text-gray-500 mb-3">Skills: HTML, Tailwind CSS, HIC Principles, Responsive Design</p>
+                            <a href="https://github.com/Molosky4" target="_blank" class="text-blue-600 hover:underline font-semibold">View on GitHub &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Knowledge Section -->
+        <section id="knowledge" class="py-20 container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Knowledge Base</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+                <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">Core Computer Science Concepts</h3>
+                    <p class="text-gray-600">
+                        My coursework at Kent State has provided me with a strong theoretical and practical understanding of core CS principles, including algorithm design, data structures, computer architecture, and the software development lifecycle. I enjoy tackling complex problems and designing efficient, scalable solutions.
+                    </p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">Object-Oriented Programming (OOP)</h3>
+                    <p class="text-gray-600">
+                        I have hands-on experience with OOP principles through projects in C++ and Python. I understand concepts like encapsulation, inheritance, and polymorphism and can apply them to build modular and maintainable software.
+                    </p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-lg border border-gray-200">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">Human-Interface Computing (HIC)</h3>
+                    <p class="text-gray-600">
+                        My studies in HIC have taught me the importance of user-centered design. I believe that intuitive and accessible interfaces are key to a successful product. This portfolio itself is an exercise in applying HIC principles like consistency, feedback, and minimizing user memory load.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-gray-800 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4">Get In Touch</h2>
+                <p class="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">I am always open to discussing new opportunities and challenges. Whether you have a question or just want to connect, feel free to reach out!</p>
+                
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
+                    <!-- Email -->
+                    <a href="mailto:folusomololuwa@gmail.com" class="flex items-center space-x-2 text-white hover:text-blue-300 transition duration-300">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" /></svg>
+                        <span>folusomololuwa@gmail.com</span>
+                    </a>
+                    
+                    <!-- GitHub -->
+                    <a href="https://github.com/Molosky4" target="_blank" class="flex items-center space-x-2 text-white hover:text-blue-300 transition duration-300">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        </svg>
+                        <span>GitHub Profile</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center p-4">
+        <p>&copy; 2025 Mololuwa Foluso. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        // Active navigation link highlighting on scroll
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href').substring(1) === entry.target.id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { threshold: 0.5 });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
